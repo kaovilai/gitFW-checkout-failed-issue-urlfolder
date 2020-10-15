@@ -1,5 +1,5 @@
 # gitFW-checkout-failed-issue-urlfolder
-For the purpose of reporting issue relating to Git For Windows relating to URL folder names.
+For the purpose of reporting issue ([reported here](https://github.com/git-for-windows/git/issues/2849)) relating to Git For Windows relating to URL folder names.
 
 ## How to reproduce
 From [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) [Ubuntu 20.04](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?atc=true&rtc=1&activetab=pivot:overviewtab)
