@@ -16,9 +16,6 @@ From Windows PowerShell, or any other programs that uses Git for Windows (as of 
 See [Appendix 1](https://github.com/kaovilai/gitFW-checkout-failed-issue-urlfolder#Appendix-1)
 This behavior was initially discovered when I was in [GitKraken](https://www.gitkraken.com/) and repeated the behavior on CLI git-scm
 
-### Other issues
-[https/wikipedia.com](https://github.com/kaovilai/gitFW-checkout-failed-issue-urlfolder/tree/main/https%EF%80%BA/wikipedia.com) was commited from a Windows machine. It does not appear that `git version 2.25.1` for Ubuntu is able to clone this folder as `ls` show it is missing. See [Appendix 2](https://github.com/kaovilai/gitFW-checkout-failed-issue-urlfolder#Appendix-2)
-
 #### Appendix 1
 ```
 git clone https://github.com/kaovilai/gitFW-checkout-failed-issue-urlfolder/ test
@@ -34,6 +31,9 @@ warning: Clone succeeded, but checkout failed.
 You can inspect what was checked out with 'git status'
 and retry with 'git restore --source=HEAD :/'
 ```
+
+### Other issues
+[https/wikipedia.com](https://github.com/kaovilai/gitFW-checkout-failed-issue-urlfolder/tree/main/https%EF%80%BA/wikipedia.com) was commited from a Windows machine. It does not appear that `git version 2.25.1` for Ubuntu is able to clone this folder as `ls` show it is missing. See [Appendix 2](https://github.com/kaovilai/gitFW-checkout-failed-issue-urlfolder#Appendix-2)
 
 #### Appendix 2
 WSL2 Ubuntu 20.04 not showing file commited from Windows
